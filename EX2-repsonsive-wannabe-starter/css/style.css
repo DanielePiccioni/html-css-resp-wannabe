@@ -136,4 +136,25 @@ img {
         padding: 0 1rem;
     }
 }
-    /* /ridimensionamento per tablet 768px fino ai 481px */
+
+/* /ridimensionamento per tablet 768px fino ai 481px */
+
+
+/* ridimensionamento per mobile dai 480 in giu */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0 0.5rem;
+    }
+
+        .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        width: 100% !important;
+        margin-bottom: 2rem;
+    }
+}
+    /* /ridimensionamento per mobile dai 480 in giu */
