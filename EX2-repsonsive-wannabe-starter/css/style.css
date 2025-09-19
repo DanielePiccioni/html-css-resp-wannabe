@@ -142,19 +142,17 @@ img {
 
 /* ridimensionamento per mobile dai 480 in giu */
 @media (max-width: 480px) {
-    .container {
-        width: 100%;
-        padding: 0 0.5rem;
-    }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
 
-        .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .col {
-        width: 100% !important;
-        margin-bottom: 2rem;
-    }
+  .lessons .col,
+  .steps .col,
+  .why-us .col-left,
+  .why-us .col-right {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
     /* /ridimensionamento per mobile dai 480 in giu */
